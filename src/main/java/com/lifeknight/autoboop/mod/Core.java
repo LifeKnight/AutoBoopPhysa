@@ -27,7 +27,6 @@ public class Core {
             MOD_VERSION = "1.0",
             MOD_ID = "autoboop";
     public static final EnumChatFormatting MOD_COLOR = WHITE;
-    public static final ExecutorService THREAD_POOL = Executors.newCachedThreadPool(new LifeKnightThreadFactory());
     public static boolean onHypixel = false;
     public static final LifeKnightBoolean runMod = new LifeKnightBoolean("Mod", "Main", true);
     public static Configuration configuration;
@@ -55,9 +54,8 @@ public class Core {
     public void onChatMessageReceived(ClientChatReceivedEvent event) {
         if (onHypixel && runMod.getValue()) {
             String message = EnumChatFormatting.getTextWithoutFormattingCodes(event.message.getFormattedText()).toLowerCase();
-
             if (message.endsWith("joined.") && !message.contains(":")) {
-                String player = Text.parseTextToIndexOfTextAfter(message, "> ", "joined.");
+                String player = message.substring(message.indexOf(">") + 2, message.indexOf("joined.") - 1);
                 Chat.sendChatMessage("/boop " + player, Chat.NORMAL);
             }
         }
