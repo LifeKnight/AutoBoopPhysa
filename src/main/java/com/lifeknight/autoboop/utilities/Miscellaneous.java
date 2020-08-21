@@ -1,9 +1,9 @@
-package com.lifeknight.autoboopphysa.utilities;
+package com.lifeknight.autoboop.utilities;
 
 import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 
-import static com.lifeknight.autoboopphysa.mod.Core.MOD_NAME;
+import static com.lifeknight.autoboop.mod.Core.MOD_NAME;
 
 public class Miscellaneous {
 

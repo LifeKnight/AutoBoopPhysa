@@ -1,6 +1,6 @@
-package com.lifeknight.autoboopphysa.variables;
+package com.lifeknight.autoboop.variables;
 
-import static com.lifeknight.autoboopphysa.mod.Core.configuration;
+import static com.lifeknight.autoboop.mod.Core.configuration;
 
 public abstract class LifeKnightNumber extends LifeKnightVariable {
     protected final Number defaultValue;

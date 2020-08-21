@@ -1,4 +1,4 @@
-package com.lifeknight.autoboopphysa.mod;
+package com.lifeknight.autoboop.mod;
 
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.atomic.AtomicInteger;

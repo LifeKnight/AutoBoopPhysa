@@ -1,4 +1,4 @@
-package com.lifeknight.autoboopphysa.utilities;
+package com.lifeknight.autoboop.utilities;
 
 import java.awt.*;
 import java.io.BufferedReader;

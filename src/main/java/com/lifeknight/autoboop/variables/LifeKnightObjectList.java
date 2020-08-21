@@ -1,16 +1,16 @@
-package com.lifeknight.autoboopphysa.variables;
+package com.lifeknight.autoboop.variables;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
 import net.minecraft.util.EnumChatFormatting;
-import com.lifeknight.autoboopphysa.utilities.Chat;
+import com.lifeknight.autoboop.utilities.Chat;
 
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.lifeknight.autoboopphysa.mod.Core.configuration;
+import static com.lifeknight.autoboop.mod.Core.configuration;
 
 public abstract class LifeKnightObjectList extends LifeKnightVariable {
     private final List<LifeKnightObject> defaultValues;

@@ -1,9 +1,9 @@
-package com.lifeknight.autoboopphysa.mod;
+package com.lifeknight.autoboop.mod;
 
 import com.google.gson.*;
-import com.lifeknight.autoboopphysa.utilities.Chat;
-import com.lifeknight.autoboopphysa.utilities.Miscellaneous;
-import com.lifeknight.autoboopphysa.variables.*;
+import com.lifeknight.autoboop.utilities.Chat;
+import com.lifeknight.autoboop.utilities.Miscellaneous;
+import com.lifeknight.autoboop.variables.*;
 import net.minecraft.util.EnumChatFormatting;
 
 import java.io.File;
@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-import static com.lifeknight.autoboopphysa.mod.Core.MOD_ID;
+import static com.lifeknight.autoboop.mod.Core.MOD_ID;
 
 public class Configuration {
 	private JsonObject configurationAsJsonObject = new JsonObject();

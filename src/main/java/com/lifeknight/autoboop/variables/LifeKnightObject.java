@@ -1,4 +1,4 @@
-package com.lifeknight.autoboopphysa.variables;
+package com.lifeknight.autoboop.variables;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonPrimitive;

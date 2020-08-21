@@ -1,8 +1,8 @@
-package com.lifeknight.autoboopphysa.variables;
+package com.lifeknight.autoboop.variables;
 
 import net.minecraft.util.EnumChatFormatting;
 
-import static com.lifeknight.autoboopphysa.mod.Core.configuration;
+import static com.lifeknight.autoboop.mod.Core.configuration;
 
 public class LifeKnightString extends LifeKnightVariable {
     private final String defaultValue;

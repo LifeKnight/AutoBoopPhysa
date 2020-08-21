@@ -1,4 +1,4 @@
-package com.lifeknight.autoboopphysa.utilities;
+package com.lifeknight.autoboop.utilities;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ChatComponentText;
@@ -9,8 +9,8 @@ import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import static com.lifeknight.autoboopphysa.mod.Core.MOD_NAME;
-import static com.lifeknight.autoboopphysa.mod.Core.MOD_COLOR;
+import static com.lifeknight.autoboop.mod.Core.MOD_NAME;
+import static com.lifeknight.autoboop.mod.Core.MOD_COLOR;
 import static net.minecraft.util.EnumChatFormatting.*;
 
 public enum Chat {

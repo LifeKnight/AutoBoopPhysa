@@ -1,9 +1,9 @@
-package com.lifeknight.autoboopphysa.variables;
+package com.lifeknight.autoboop.variables;
 
 
 import net.minecraft.util.EnumChatFormatting;
 
-import static com.lifeknight.autoboopphysa.mod.Core.configuration;
+import static com.lifeknight.autoboop.mod.Core.configuration;
 import static net.minecraft.util.EnumChatFormatting.GREEN;
 import static net.minecraft.util.EnumChatFormatting.RED;
 

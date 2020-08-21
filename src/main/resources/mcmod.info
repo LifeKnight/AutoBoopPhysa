@@ -1,8 +1,8 @@
 [
 {
-  "modid": "autoboopphysa",
-  "name": "Auto Boop Physa",
-  "description": "Automatically runs \"/boop physa\" on Hypixel. Also automatically updates for a name change on log in to a server.",
+  "modid": "autoboop",
+  "name": "Auto Boop",
+  "description": "Automatically runs \"/boop [player]\" on Hypixel when [player] joins.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",

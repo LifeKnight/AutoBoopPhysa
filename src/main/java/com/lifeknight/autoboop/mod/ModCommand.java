@@ -1,6 +1,6 @@
-package com.lifeknight.autoboopphysa.mod;
+package com.lifeknight.autoboop.mod;
 
-import com.lifeknight.autoboopphysa.utilities.Chat;
+import com.lifeknight.autoboop.utilities.Chat;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommand;
@@ -9,8 +9,8 @@ import net.minecraft.command.ICommandSender;
 import java.util.Collections;
 import java.util.List;
 
-import static com.lifeknight.autoboopphysa.mod.Core.MOD_ID;
-import static com.lifeknight.autoboopphysa.mod.Core.runMod;
+import static com.lifeknight.autoboop.mod.Core.MOD_ID;
+import static com.lifeknight.autoboop.mod.Core.runMod;
 
 public class ModCommand extends CommandBase {
     private final List<String> aliases = Collections.singletonList("abp");

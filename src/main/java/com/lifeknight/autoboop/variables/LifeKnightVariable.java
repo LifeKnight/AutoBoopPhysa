@@ -1,6 +1,6 @@
-package com.lifeknight.autoboopphysa.variables;
+package com.lifeknight.autoboop.variables;
 
-import com.lifeknight.autoboopphysa.utilities.Text;
+import com.lifeknight.autoboop.utilities.Text;
 
 import java.util.ArrayList;
 import java.util.List;

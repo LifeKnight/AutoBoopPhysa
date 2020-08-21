@@ -1,10 +1,10 @@
-package com.lifeknight.autoboopphysa.variables;
+package com.lifeknight.autoboop.variables;
 
 import net.minecraft.util.EnumChatFormatting;
 
 import java.util.List;
 
-import static com.lifeknight.autoboopphysa.mod.Core.configuration;
+import static com.lifeknight.autoboop.mod.Core.configuration;
 
 public class LifeKnightCycle extends LifeKnightVariable {
     private final List<String> defaultValues;
