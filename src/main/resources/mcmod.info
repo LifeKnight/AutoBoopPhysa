@@ -1,0 +1,16 @@
+[
+{
+  "modid": "autoboopphysa",
+  "name": "Auto Boop Physa",
+  "description": "Automatically runs \"/boop physa\" on Hypixel. Also automatically updates for a name change on log in to a server.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LifeKnight"],
+  "credits": "Fiverr commission for yourmomaaa",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
