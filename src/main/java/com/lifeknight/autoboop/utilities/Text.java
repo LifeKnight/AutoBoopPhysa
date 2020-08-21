@@ -1,14 +1,23 @@
 package com.lifeknight.autoboop.utilities;
 
-import net.minecraft.util.EnumChatFormatting;
-
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.regex.Pattern;
 
 public class Text {
+    public static List<String> returnStartingEntries(String[] strings, String input, boolean ignoreCase) {
+        if (input == null || input.isEmpty()) return Arrays.asList(strings);
+        List<String> result = new ArrayList<>();
+        for (String string : strings) {
+            if (ignoreCase) {
+                if (string.toLowerCase().startsWith(input.toLowerCase())) result.add(string);
+            } else {
+                if (string.startsWith(input)) result.add(string);
+            }
+        }
+        return result;
+    }
+
     public static String formatCapitalization(String input, boolean keepFirstCapitalized) {
         StringBuilder stringBuilder = new StringBuilder();
 
